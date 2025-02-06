@@ -40,10 +40,7 @@ now the proxy server is running on port 9000
 First, setup proxy setting to port 9000 in postman application, and you are all good to send your requests.
 
 ## 📺 Demo
-
-<iframe width="560" height="315"
-src="https://youtu.be/7NFOJhJmL60"
-frameborder="0" allowfullscreen></iframe>
+[Watch on YouTube](https://youtu.be/7NFOJhJmL60?si=81Ok1bC4maj_QROg)
 
 ## To be implemented (open for contribution)
 - HTTPS support
