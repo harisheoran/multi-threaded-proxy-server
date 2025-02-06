@@ -6,7 +6,7 @@ It is a multi-threaded forward proxy server built in Go.
 - Concurrent request handling with semaphore limiting
 - Caching Strategy
   - In-memory LRU Cache
-- Handling request on TCP level
+- Handling requests on the TCP level
 
 ## 📂 Project Structure
 ```
