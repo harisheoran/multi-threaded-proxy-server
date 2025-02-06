@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	maxClients = 20
+	maxClients = 100
 	sema       = make(chan struct{}, maxClients)
 )
 
@@ -22,13 +22,13 @@ func main() {
 		infoLogger:  infoLogger,
 		errorLogger: errorLogger,
 		LRUCache: &cache_lru.CacheList{
-			Capacity: 2,
+			Capacity: 10,
 			MyMap:    make(map[string]*cache_lru.Node),
 		},
 	}
 
 	// flag to pass the port at runtime
-	flagPort := flag.String("flag", "9000", "main port of the multi-threaded proxy web server")
+	flagPort := flag.String("port", "9000", "main port of the multi-threaded proxy web server")
 	flag.Parse()
 	app.infoLogger.Printf("multi-threaded proxy server started at port: %s\n", *flagPort)
 
