@@ -1,11 +1,8 @@
 name: Build and Release the Multi-Threaded proxy server
 
 on:
-  pull_request:
   push:
-    # run only against tags
-    tags:
-      - "*"
+    branches: [main]
 
 permissions:
   contents: write
