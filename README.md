@@ -21,6 +21,8 @@ It is a multi-threaded forward proxy server built in Go.
 ```
 
 ## 🛠️ Setup & Run
+### Download the binary from Release section
+Run directly
 ### Clone the repository
 ``` git clone <repository-url> ```
 ``` cd multithreaded-proxy-web-server ```

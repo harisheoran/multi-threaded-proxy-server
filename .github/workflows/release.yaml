@@ -1,4 +1,4 @@
-name: Build and Release the Repoguard
+name: Build and Release the Multi-Threaded proxy server
 
 on:
   pull_request:
