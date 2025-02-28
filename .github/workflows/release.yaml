@@ -2,7 +2,8 @@ name: Build and Release the Multi-Threaded proxy server
 
 on:
   push:
-    branches: [main]
+    tags:
+      - "*"
 
 permissions:
   contents: write
